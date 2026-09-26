@@ -1,9 +1,7 @@
 {
-  "version": "2.1.0",
-  "architecture": "vibe_coding_core",
+  "version": "3.0.0-X",
   "artist_profile": {
     "alias": "Diablo Cholo",
-    "legal_name": "Rolando H. Ramirez Jr.",
     "origin": "Baytown/Houston, TX",
     "sonic_identity": [
       "cholo_rap",
@@ -12,22 +10,55 @@
     ]
   },
   "runtime": {
-    "mode": "silent_execution",
     "tts_talking": false,
-    "audio_pipeline": {
-      "transcription": "whisper_stt",
-      "pitch_shift_algorithm": "rebajada_slow_down",
-      "bpm_target": 80
-    },
     "hud_overlay": {
-      "active": true,
       "theme": "matrix_dark",
-      "bg_color": "#000000",
       "text_color": "#00FF00"
     },
-    "targets": [
-      "local_disk",
-      "youtube_studio"
-    ]
-  }
+    "audio_pipeline": {
+      "pitch_shift_algorithm": "rebajada_slow_down",
+      "bpm_target": 80
+    }
+  },
+  "mini_algorithms": {
+    "rebajada_pitch_factor": "round(target_bpm / input_bpm, 4)",
+    "auto_tagger": {
+      "cholo_rap": [
+        "tx",
+        "houston",
+        "baytown",
+        "barrio",
+        "cholo",
+        "vato"
+      ],
+      "cumbia_rebajada": [
+        "cumbia",
+        "slow",
+        "rebajada",
+        "perreo",
+        "sonidero"
+      ],
+      "chopped_and_screwed": [
+        "screw",
+        "chopped",
+        "purple",
+        "southside",
+        "808"
+      ]
+    }
+  },
+  "memory_vault": [
+    {
+      "timestamp": "2026-09-26T06:03:20.474654",
+      "title": "Southside Baytown Barrio Cumbia",
+      "original_bpm": 110.0,
+      "target_bpm": 80,
+      "speed_ratio": 0.7273,
+      "tags": [
+        "cholo_rap",
+        "cumbia_rebajada",
+        "chopped_and_screwed"
+      ]
+    }
+  ]
 }
