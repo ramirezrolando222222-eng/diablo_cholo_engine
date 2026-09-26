@@ -1,0 +1,14 @@
+{
+  "system_rights": {
+    "copyright_holder": "Rolando H Ramirez Jr",
+    "contact_email": "ramirezrolando222222@gmail.com",
+    "artist_alias": "Diablo Cholo",
+    "repository_owner": "diablo_cholo_engine",
+    "license_status": "PROPRIETARY_ALL_RIGHTS_RESERVED"
+  },
+  "engine_state": {
+    "version": "6.0.0-ENTERPRISE",
+    "master_router": "v5.0.0-RECOVERY",
+    "status": "ACTIVE_LOCKED"
+  }
+}

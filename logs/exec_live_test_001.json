@@ -1,0 +1,12 @@
+{
+  "execution_id": "exec_live_test_001",
+  "tenant_id": "tenant_diablo_cholo_01",
+  "workspace_id": "ws_baytown_studio",
+  "domain": "SYSTEM_EXECUTION",
+  "timestamp": "2026-09-26T11:53:14Z",
+  "result": {
+    "action_executed": "rebajada_slow_down",
+    "target_bpm": 80,
+    "status": "SUCCESS"
+  }
+}

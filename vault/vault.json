@@ -1,0 +1,28 @@
+{
+  "vault_meta": {
+    "owner": "Rolando H Ramirez Jr",
+    "email": "ramirezrolando222222@gmail.com",
+    "alias": "Diablo Cholo",
+    "version": "6.0.0-ENTERPRISE",
+    "status": "SECURED_LOCKED"
+  },
+  "core_vault": {
+    "prompts": {
+      "master_router": "v5.0.0-RECOVERY",
+      "multi_tenant": "v6.0.0-ENTERPRISE"
+    },
+    "pipelines": [
+      "LEAD_SCORE",
+      "AGENT_SUPPORT",
+      "CONTENT_ENGINE",
+      "INVOICE_PARSER",
+      "SYSTEM_EXECUTION"
+    ],
+    "paths": {
+      "base": "~/diablo_cholo_engine",
+      "adapters": "adapters/parallel_worker.py",
+      "logs": "logs/",
+      "drive": "drive_accomplishments/"
+    }
+  }
+}

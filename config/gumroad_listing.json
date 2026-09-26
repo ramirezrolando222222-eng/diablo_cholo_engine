@@ -1,0 +1,14 @@
+{
+  "product_name": "Autonomous AI Execution Engine (v6.0.0-ENTERPRISE)",
+  "target_audience": "n8n, Make, & Python Automation Developers",
+  "price_usd": 397.0,
+  "billing_type": "one_time",
+  "description": "Stop rebuilding custom AI orchestration from scratch. Deploy a production-grade, self-healing multi-tenant boilerplate featuring strict JSON prompts, parallel worker splitters, and local Python adapters.",
+  "deliverables": [
+    "vault/vault.json (Enterprise Multi-Tenant Configuration)",
+    "adapters/parallel_worker.py (Local CLI & Script Execution)",
+    "prompts/v6_enterprise_master_router.txt (Strict JSON Enforcement)",
+    "snippets/n8n_parallel_splitter.js (Zero-Latency Job Explosion)"
+  ],
+  "status": "READY_TO_DEPLOY_GUMROAD"
+}
